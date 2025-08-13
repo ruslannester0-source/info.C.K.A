@@ -25,7 +25,7 @@
 </head>
 <body>
     <div class="center">
-        <img src="" alt="Фото">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." alt="Фото">
         <br><br>
         <a href="index.html" class="btn">⬅ Назад</a>
     </div>
