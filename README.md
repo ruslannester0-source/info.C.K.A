@@ -30,3 +30,54 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Кнопка Вгору</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+
+    .scroll-button {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .scroll-button:hover {
+      background-color: #555;
+    }
+
+    .content {
+      height: 2000px; /* щоб була велика сторінка для прокрутки */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Прокрути вниз, щоб побачити кнопку</h1>
+    <p>...довгий контент...</p>
+  </div>
+
+  <button class="scroll-button" onclick="scrollToTop()">⬆ Вгору</button>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
