@@ -23,3 +23,16 @@
 
 <img width="1459" height="571" alt="Знімок екрана 2025-08-03 232625" src="https://github.com/user-attachments/assets/35d37874-9a35-467d-84b8-a9d2984a4713" />
  
+
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { background-color: black; color: white; text-align: center; padding-top: 100px; }
+    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <button onclick="location.reload()">Оновити сторінку</button>
+</body>
+</html>
