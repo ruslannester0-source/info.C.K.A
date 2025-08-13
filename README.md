@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="center">
-        <button onclick="goToPhotoPage()">Перейти до фото</button>
+        <button onclick="goToPhotoPage()"></button>
     </div>
     <script src="script.js"></script>
 </body>
