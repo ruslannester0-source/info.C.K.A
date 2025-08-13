@@ -24,3 +24,79 @@
 
 <img width="1459" height="571" alt="Знімок екрана 2025-08-03 232625" src="https://github.com/user-attachments/assets/35d37874-9a35-467d-84b8-a9d2984a4713" />
 
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Кнопки Вгору / Вниз</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+
+    .content {
+      height: 2000px; /* Щоб було що прокручувати */
+    }
+
+    /* Кнопка вгору */
+    .scroll-up {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .scroll-up:hover {
+      background-color: #555;
+    }
+
+    /* Кнопка вниз */
+    .scroll-down {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .scroll-down:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Прокрути сторінку</h1>
+  </div>
+
+  <!-- Кнопки -->
+  <button class="scroll-up" onclick="scrollToTop()">⬆ Вгору</button>
+  <button class="scroll-down" onclick="scrollToBottom()">⬇ Вниз</button>
+
+  <!-- JavaScript -->
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
