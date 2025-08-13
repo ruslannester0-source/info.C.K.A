@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="center">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." alt="Фото">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." alt="Constitution Screenshot" />
         <br><br>
         <a href="index.html" class="btn">⬅ Назад</a>
     </div>
