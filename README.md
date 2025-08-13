@@ -12,7 +12,6 @@
     <div class="center">
         <button onclick="goToPhotoPage()"></button>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
 
