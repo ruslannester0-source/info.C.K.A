@@ -33,16 +33,6 @@
 </html>
 
 
-body {
-    margin: 0;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .center {
     text-align: center;
 }
