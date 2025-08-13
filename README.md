@@ -21,14 +21,13 @@
 </head>
 <body>
     <div class="center">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." alt="Constitution Screenshot" />
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." ="Constitution Screenshot" />
         <br><br>
         <a href="index.html" class="btn">⬅ Назад</a>
     </div>
 </body>
 </html>
 
-<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
