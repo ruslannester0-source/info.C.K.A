@@ -28,11 +28,11 @@
 <head>
   <meta charset="UTF-8">
   <style>
-    body { background-color: black; color: white; text-align: center; padding-top: 100px; }
-    button { padding: 10px 20px; font-size: 18px; cursor: pointer; }
+    body { background-color: black; color: white; text-align: center; padding-top: 100; }
+    button { padding: 10 20; font-size: 18; cursor: pointer; }
   </style>
 </head>
 <body>
-  <button onclick="location.reload()">Оновити сторінку</button>
+  <button onclick="location.reload()">Оновити</button>
 </body>
 </html>
