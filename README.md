@@ -24,7 +24,6 @@
 
 <img width="1459" height="571" alt="Знімок екрана 2025-08-03 232625" src="https://github.com/user-attachments/assets/35d37874-9a35-467d-84b8-a9d2984a4713" />
 
-<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
@@ -81,7 +80,6 @@
 <body>
 
   <div class="content">
-    <h1>Прокрути сторінку</h1>
   </div>
 
   <!-- Кнопки -->
