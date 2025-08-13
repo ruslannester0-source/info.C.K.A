@@ -32,18 +32,3 @@
 </body>
 </html>
 
-
-
-button:hover, .btn:hover {
-    background-color: #2980b9;
-}
-
-img {
-    max-width: 90%;
-    border-radius: 10px;
-}
-
-
-function goToPhotoPage() {
-    window.location.href = "photo.html";
-}
