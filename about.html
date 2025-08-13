@@ -9,6 +9,19 @@
 </body>
 </html>
 
+<p style="color: red;">Діють для всіх громадян без винятку</p>
+
+<p style="color: red;">Види злочинів Легкі: дрібна крадіжка, пошкодження майна.Середньої тяжкості: напад, шахрайство, пограбування без зброї.Тяжкі: вбивство, збройне пограбування, терористичні дії</p>
+
+<p style="color: red;">Гуманізм — заборона тортур та принижень.</p>
+
+<p style="color: red;">Об’єкт (що постраждало), 
+суб’єкт (винуватець), 
+обʼєктивна сторона (що зроблено), 
+субʼєктивна сторона (наміри)</p>
+
+<p style="color: red;">Що не є злочином:Самооборона, крайня необхідність, допустимий ризик, виконання законного наказу</p>
+
 <!-- about.html -->
 <!DOCTYPE html>
 <html lang="uk">
@@ -22,19 +35,31 @@
 </body>
 </html>
 
-№ Можете доповнити №
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Форма вводу</title>
+  <title>Форма з відправкою</title>
 </head>
 <body>
 
-  <h2>Напишіть щось:</h2>
-  
-  <input type="text" placeholder="Введіть текст тут">
-  
+  <h2>Напишіть щось і натисніть "Відправити":</h2>
+
+  <!-- Форма -->
+  <input type="text" id="userInput" placeholder="Введіть текст">
+  <button onclick="sendText()">Відправити</button>
+
+  <h3>Ви написали:</h3>
+  <p id="output"></p>
+
+  <!-- JavaScript -->
+  <script>
+    function sendText() {
+      const input = document.getElementById("userInput").value;
+      document.getElementById("output").textContent = input;
+    }
+  </script>
+
 </body>
 </html>
+
