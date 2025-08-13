@@ -1,13 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: #1e90ff;
-}
-
-# info.C.K.A
-
 
 <html lang="uk">
 <head>
