@@ -33,20 +33,6 @@
 </html>
 
 
-.center {
-    text-align: center;
-}
-
-button, .btn {
-    background-color: #3498db;
-    color: white;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 button:hover, .btn:hover {
     background-color: #2980b9;
