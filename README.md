@@ -1,6 +1,5 @@
 # info.C.K.A
 
-<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +11,5 @@
     <div class="center">
         <button onclick="goToPhotoPage()"><img width="1066" height="422" alt="2025-08-03_232617" src="https://github.com/user-attachments/assets/97d04c7f-cd2b-4b28-89a7-a70bc12168ea" /></button>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
-
