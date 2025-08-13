@@ -23,16 +23,61 @@
 
 <img width="1459" height="571" alt="Знімок екрана 2025-08-03 232625" src="https://github.com/user-attachments/assets/35d37874-9a35-467d-84b8-a9d2984a4713" />
  
+<button onclick="scrollToTop()">⬆ Вгору</button>
 
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
+  <title>Кнопка Вгору</title>
   <style>
-    body { background-color: black; color: white; text-align: center; padding-top: 100; }
-    button { padding: 10 20; font-size: 18; cursor: pointer; }
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 50px;
+    }
+
+    .scroll-button {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .scroll-button:hover {
+      background-color: #555;
+    }
+
+    .content {
+      height: 2000px; /* щоб була велика сторінка для прокрутки */
+    }
   </style>
 </head>
 <body>
-  <button onclick="location.reload()">Оновити</button>
+
+  <div class="content">
+    <h1>Прокрути вниз, щоб побачити кнопку</h1>
+    <p>...довгий контент...</p>
+  </div>
+
+  <button class="scroll-button" onclick="scrollToTop()">⬆ Вгору</button>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
