@@ -38,3 +38,11 @@
   <h1>Вітаю на темному сайті!</h1>
 </body>
 </html>
+
+body {
+  background-color: #000000; /* чорний фон */
+  color: #ffffff;            /* білий текст */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
