@@ -25,8 +25,8 @@
 
 <button onclick="scrollToTop()">⬆ Вгору</button>
 
-<script>
+</script>
   function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  ({ window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
