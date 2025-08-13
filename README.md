@@ -1,7 +1,6 @@
 # info.C.K.A
 
 
-<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +15,6 @@
 </html>
 
 
-<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
