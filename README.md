@@ -11,13 +11,3 @@
 </body>
 </html>
 
-<html lang="uk">
-<head>
-  <meta charset="UTF-8" />
-</head>
-<body style="background-color:black; color:white; text-align:center;">
-  <h1>Це інша сторінка</h1>
-  <a href="index.html">
-  </a>
-</body>
-</html>
