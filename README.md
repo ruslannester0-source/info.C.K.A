@@ -23,7 +23,7 @@
 </head>
 <body>
     <div class="center">
-        <img src="https://i.pinimg.com/736x/ea/c2/52/eac252c37ce77e91363113c3c4dee577.jpg" alt="Фото">
+        <img src=" alt="Фото">
         <br><br>
         <a href="index.html" class="btn">⬅ Назад</a>
     </div>
